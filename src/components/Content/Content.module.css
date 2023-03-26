@@ -1,0 +1,291 @@
+@media screen and (min-width:320px) and (max-width:1500px) {
+    .content {
+        position: relative;
+        background-color: black;
+        height: 890px;
+        padding-top: 82px;
+        padding-left: 28px;
+        color: white;
+    }
+
+    .headlineFont {
+        font-size: 70px;
+        letter-spacing: 1.2px;
+        line-height: 1.24;
+    }
+
+    .logoFont {
+        margin-top: 6px;
+        margin-left: 5px;
+        font-size: 63px;
+        font-weight: bold;
+        letter-spacing: 7.7px;
+        background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0 transparent;
+        -webkit-text-stroke-width: 4px
+    }
+
+    .pointMakeMoneyFont {
+        margin-top: 36px;
+        font-family: Montserrat;
+        font-size: 35px;
+        letter-spacing: 0.7px;
+    }
+
+    .whatWeGiftBox{
+        margin-top: 94px;
+        margin-left: 2px;
+        letter-spacing: 0.8px;
+    }
+
+    .whatWeGiftFont {
+        font-size: 35px;
+    }
+
+    .whatWeGiftBox span {
+        text-transform: lowercase;
+        line-height: 1.26;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        background: linear-gradient(92deg, #FCB045, #FD1D1D);
+        -webkit-background-clip: text;
+        -webkit-text-stroke-width: 20px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0 transparent;
+    }
+
+    .giftItems {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .mobileItems {
+        display: flex;
+        margin-top: 39px;
+    }
+
+    .mobileItemColumn1 {
+        width: 38.2%;
+        margin-right: 14px;
+    }
+
+    .mobileItemColumn2 {
+        width: 47%;
+        margin-right: 18px;
+    }
+
+    .mobileItem {
+        margin-left: 4px;
+        display: flex;
+    }
+
+    .mobileItemDown {
+        margin-top: 29px;
+    }
+
+    .mobileItem span {
+        font-size: 22px;
+        font-weight: bold;
+        background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0 transparent;
+    }
+
+    .mobileItem p {
+        margin-top: 1px;
+        margin-left: 8px;
+        font-family: Montserrat;
+        font-size: 25px;
+        letter-spacing: 1.9px;
+    }
+
+    .ball1 {
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 258px;
+        top: 107px;
+
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+        border-radius: 50%;
+    }
+
+    .ball2 {
+        position: absolute;
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 241px;
+
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+        border-radius: 50%;
+    }
+
+    .ball3 {
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        left: 29px;
+        top: 462px;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        backdrop-filter: blur(2px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50%;
+    }
+    .ball4 {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 296px;
+        top: 226px;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:1501px) and (max-width:1920px) {
+    .content {
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .inter {
+        font-family: Inter;
+    }
+
+    .montserrat {
+        font-family: Montserrat;
+    }
+
+    .headlineBlock {
+        width: 30%;
+        margin-left: 1%;
+        margin-top: 1.5%;
+    }
+
+    .headlineFont {
+        font-size: 64px;
+
+    }
+
+    .logoFont {
+        margin-top: 1.4%;
+        margin-left: 0.6%;
+        font-size: 57px;
+        font-weight: bold;
+        letter-spacing: 6.2px;
+        background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0 transparent;
+        -webkit-text-stroke-width: 5px;
+    }
+
+    .pointMakeMoneyFont {
+        margin-top: 9.5%;
+        font-size: 25px;
+        letter-spacing: -0.5px;
+    }
+
+    .giftBlock {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .whatWeGiftBox {
+        align-self: flex-end;
+        margin-top: 6.2%;
+        width: 54.8%;
+    }
+    .whatWeGiftFont {
+        font-size: 25px;
+        letter-spacing: -0.5px;
+    }
+
+    .whatWeGiftBox span {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        background: linear-gradient(92deg, #FCB045, #FD1D1D);
+        -webkit-background-clip: text;
+        -webkit-text-stroke-width: 20px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0 transparent;
+    }
+
+    .giftItems {
+        width: 58%;
+        display: flex;
+        align-self: flex-end;
+        margin-top: 7.4%;
+    }
+
+    .giftItemsColumnBox1 {
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .giftItemsColumnBox2 {
+        width: 49.6%;
+        margin-left: 7%;
+    }
+
+    .giftItemBox {
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .giftItemBoxBottom {
+        margin-top: 20%;
+    }
+
+    .giftItemHeadlineFont {
+        font-size: 25px;
+        letter-spacing: 0.8px;
+    }
+
+    .giftItemPointDescriptionFont {
+        margin-top: 4%;
+        font-size: 22px;
+        letter-spacing: -0.2px;
+    }
+
+    .button {
+        width: 48.9%;
+        height: 81px;
+        margin-top: 10%;
+        margin-right: 0.3%;
+        background-color: #4077F3;
+        align-self: flex-end;
+        text-align: center;
+    }
+
+    .buttonFont {
+        margin-top: 8%;
+        font-size: 22px;
+        letter-spacing: -0.2px;
+    }
+
+    .mobileItems {
+        display: none;
+    }
+}

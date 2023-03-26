@@ -1,0 +1,219 @@
+@media screen and (min-width:320px) and (max-width:1500px) {
+    .box {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #1E1E1E;
+        color: white;
+    }
+
+    .nav {
+        margin-top: 83px;
+    }
+
+    .navHeadlinesFont {
+        font-weight: bold;
+        font-size: 23px;
+        color: #656566;
+        letter-spacing: 2.4px;
+    }
+
+    .mobilePointsCompany {
+        margin-top: 44px;
+    }
+
+    .pointFont {
+        font-size: 26px;
+        letter-spacing: 1.1px;
+    }
+
+    .vacancy {
+        margin-top: 22px;
+    }
+
+    .menu {
+        margin-top: 63px;
+    }
+
+    .menuPoints {
+        display: flex;
+        margin-top: 43px;
+    }
+
+    .mobilePointsMenu {
+        margin-right: 10%;
+        width: 50%;
+    }
+
+    .mobilePoint {
+        margin-bottom: 25px;
+    }
+
+    .mobileNone {
+        display: none;
+    }
+
+    .contacts {
+        margin-top: 31px;
+    }
+
+    .phoneBox {
+        margin-top: 40px;
+        font-size: 32px;
+    }
+
+    .iconBox {
+        margin-top: 20px;
+    }
+
+    .icon {
+        width: 7%;
+    }
+
+    .telegramIcon {
+        padding-bottom: 3px;
+        margin-left: 2px;
+        width: 7.5%;
+        transform: rotate(-2deg);
+    }
+
+    .viber {
+        margin-left: 27px;
+    }
+
+    .whatsapp {
+        margin-left: 27px;
+    }
+
+    .addres {
+        margin-top: 22px;
+        font-size: 27px;
+        letter-spacing: 0.5px;
+    }
+
+    .policy {
+        margin-top: 100px;
+        font-family: Montserrat;
+        font-size: 23.5px;
+        letter-spacing: 0.2px;
+    }
+
+    .policyText {
+        margin-top: 10px;
+    }
+
+    .policyText a {
+        color: white;
+    }
+}
+
+@media screen and (min-width:1501px) and (max-width:1920px) {
+    .box {
+        height: 375px;
+        padding-top: 1.9%;
+        color: white;
+    }
+
+    .inter {
+        font-family: Inter;
+    }
+
+    .montserrat {
+        font-family: Montserrat;
+    }
+
+    .nav {
+        height: 230px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navHeadlinesFont {
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        width: 17.9%;
+        padding-left: 1.2%;
+    }
+
+    .menu {
+        width: 35.2%;
+    }
+
+    .contacts {
+        width: 23.8%;
+        margin-left: 5.6%;
+        margin-right: 0.2%;
+        text-align: right;
+    }
+
+    .points {
+        padding-top: 12px;
+    }
+
+    .point {
+        padding-top: 13.3px;
+    }
+
+    .pointFont {
+        font-size: 21px;
+        letter-spacing: 0.1px;
+    }
+
+    .menuPoints {
+        display: flex;
+    }
+
+    .casesBox {
+        margin-left: 13%;
+    }
+
+    .phoneBox {
+        margin-top: 6.8%;
+    }
+
+    .phoneFont {
+        font-size: 21px;
+        letter-spacing: 0.3px;
+    }
+
+    .iconBox {
+        margin-top: 8%;
+    }
+
+    .icon {
+        width: 6%;
+        margin-left: 18px;
+    }
+
+    .telegramIcon {
+        width: 6.5%;
+        transform: rotate(-3deg);
+    }
+
+    .addres {
+        margin-top: 7.3%;
+        font-size: 21px;
+        letter-spacing: 0.115px;
+    }
+
+    .policy {
+        margin-top: 2.8%;
+        text-align: right;
+        margin-right: 0.2%;
+    }
+
+    .policyText {
+        margin-top: 10px;
+    }
+
+    .policyText a {
+        color: white;
+    }
+
+    .standartNone {
+        display: none;
+    }
+}
+
